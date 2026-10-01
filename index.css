@@ -23,7 +23,6 @@ h1 {
     font-weight: 800;
     font-style: ExtraBold;
     font-size: 40px;
-    leading-trim: NONE;
     line-height: 40px;
     letter-spacing: -2.5%;
     margin: 0px;
@@ -34,7 +33,6 @@ h2{
     font-family: Inter;
     font-weight: 400;
     font-size: 20px;
-    leading-trim: NONE;
     line-height: 28px;
     letter-spacing: 0%;
     color: #D5D4D8;
@@ -83,7 +81,6 @@ padding-right: 17px;
 padding-bottom: 9px;
 padding-left: 15px;
 gap: 12px;
-angle: 0 deg;
 opacity: 1;
 box-shadow: 0px 1px 2px 0px #0000000D;
 color: #FFFFFF;
@@ -93,7 +90,6 @@ width: fit-content;
 font-family: Inter;
 font-weight: 500;
 font-size: 16px;
-leading-trim: NONE;
 line-height: 24px;
 letter-spacing: 0%;
 
