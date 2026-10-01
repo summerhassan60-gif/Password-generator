@@ -3,8 +3,11 @@ const characters =["A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","
 
 let randomPassElOne = document.getElementById ("randompass-elone")
 let randomPassElTwo = document.getElementById ("randompass-eltwo")
+let generateButton = document.getElementById("generate-el")
 
-function generateEl () {
+generateButton.addEventListener("click", generateEl)
+
+function generateEl() {
     
 randomPassElOne.textContent = ""
 randomPassElTwo.textContent = ""
